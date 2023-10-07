@@ -1,0 +1,13 @@
+# Definition of dictionary
+europe = {'spain':'madrid', 'france':'paris', 'germany':'berlin',
+          'norway':'oslo', 'italy':'rome', 'poland':'warsaw', 'austria':'vienna' }
+          
+# Iterate over europe
+for key, value in europe.items() :
+     print("the capital of " + str(key) + " is " + str(value))
+
+
+
+
+The solution starts by defining a dictionary called 'europe' where each key is a country and each value is the capital of that country.
+The 'for' loop is used to iterate over each key-value pair in the 'europe' dictionary. The 'items()' method is used on the dictionary to return a list of tuples, where each tuple consists of a key-value pair. In each iteration of the loop, the 'key' variable holds the key of the current key-value pair (which is a country in this case), and the 'value' variable holds the value of the current key-value pair (which is the capital of the country in this case). The 'print' statement inside the loop is used to print a string that includes the key and value of the current key-value pair. The 'str' function is used to convert the key and value to strings, if they are not already strings. The '+' operator is used to concatenate these strings together with the other strings to form the final string that is printed. So, for each key-value pair in the 'europe' dictionary, the loop prints a string that says "the capital of x is y", where 'x' is the key and 'y' is the value of the pair. This is exactly what the exercise asked for.
